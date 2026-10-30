@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1793358542 source:c:\users\saifd\onedrive\dokumenti\tas\main.cpp
+	"Tas.h"
+	<iostream>
+	<vector>
+	<random>
+	<algorithm>
+	<iomanip>
+
+1793358544 c:\users\saifd\onedrive\dokumenti\tas\tas.h
+	<vector>
+
