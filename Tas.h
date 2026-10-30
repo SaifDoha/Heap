@@ -18,5 +18,14 @@ Resultat testerMaxHeap(const vector<int>& valeurs);
 Resultat testerPriorityQueue(const vector<int>& valeurs);
 Resultat testerSet(const vector<int>& valeurs);
 Resultat testerMap(const vector<int>& valeurs);
+// ==================== FONCTIONS MIN-HEAP ====================
+
+void insererMinHeap(vector<int>& tas, int valeur);
+void heapifyMin(vector<int>& tas, int n, int i);
+void supprimerMinHeap(vector<int>& tas);
+Resultat testerMinHeap(const vector<int>& valeurs);
+Resultat testerPriorityQueueMin(const vector<int>& valeurs);
+Resultat testerSetMin(const vector<int>& valeurs);
+Resultat testerMapMin(const vector<int>& valeurs);
 
 #endif
